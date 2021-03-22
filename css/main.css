@@ -25,12 +25,14 @@ h1 + i {
   font-style: italic;
 }
 
-nav {
+nav,
+a:hover {
   font-family: "PT Sans", sans-serif;
   font-size: .8rem;
   color: #8f2440;
   font-weight: bold;
-  background-color: #c9b5ab;
+  background-color: #3f1622;
+  text-decoration: underline;
 }
 
 figure > figcaption {
