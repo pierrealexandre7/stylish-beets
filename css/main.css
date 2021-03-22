@@ -14,18 +14,27 @@ img {
   width: 100%;
 }
 
-h1, h2 {
+h1, h2, h1 + i {
   font-family: 'PT Sans', sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
-  font-weight: bold
+  font-weight: bold;
+}
+
+h1 + i {
+  font-style: italic;
 }
 
 nav {
   font-family: 'PT Sans', sans-serif;
   font-size: .8rem;
   color: #8f2440;
-  font-weight: bold
+  font-weight: bold;
+}
+
+figure > figcaption {
+  font-style: italic;
+  text-align: center;
 }
 
 blockquote {
@@ -37,6 +46,18 @@ blockquote {
 
 figure + p {
   font-family: 'PT Serif', serif;
-  font-size: 1.5rem;
-  color: #222
+  font-size: .8rem;
+  color: #222;
+}
+
+a:hover, a:link {
+  color: #222;
+}
+
+ol {
+  list-style-type: armenian;
+}
+
+ul {
+  list-style-type: circle;
 }
