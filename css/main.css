@@ -58,6 +58,7 @@ dl > dt {
 a,
 a:link {
   color: #8f2440;
+  text-decoration: underline;
 }
 
 a:hover {
