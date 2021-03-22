@@ -42,16 +42,27 @@ blockquote {
   font-size: 1.125rem;
   color: #222;
   font-style: italic;
+  text-align: center;
 }
 
 figure + p {
-  font-family: 'PT Serif', serif;
   font-size: .8rem;
   color: #222;
+  font-weight: bold;
 }
 
-a:hover, a:link {
-  color: #222;
+dl > dt {
+  font-weight: bold;
+}
+
+a,
+a:link {
+  color: #8f2440;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 ol {
