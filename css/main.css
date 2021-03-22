@@ -1,25 +1,38 @@
 html {
+  box-sizing: border-box;
   font-family: 'PT Serif', serif;
   background-color: #c9b5ab;
-  line-height: 1.5
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
 }
 
 h1, h2 {
   font-family: 'PT Sans', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color: #3f1622;
+  font-weight: bold
 }
 
 nav {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.5rem;
+  font-size: .8rem;
   color: #8f2440;
+  font-weight: bold
 }
 
 blockquote {
   font-family: 'PT Serif', serif;
   font-size: 1.125rem;
   color: #222;
+  font-style: italic;
 }
 
 figure + p {
